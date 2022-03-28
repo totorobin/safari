@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.pinimg.com/originals/29/f0/99/29f099ac762ef2dfeab5dd7facb511f0.jpg",
+    "name": "Lion",
+    "link": "https://blog.makila.fr/animaux-safari-afrique/lion/",
+    "scientificName": "Panthera leo",
+    "lieu": "Savane africaine",
+    "family": "Félidé",
+    "regime": "Carnivore"
+  },
+  {
+    "id": 2,
+    "img": "https://i.pinimg.com/originals/32/bc/8c/32bc8ca0a4cd43112e4fa16f4c19edb1.jpg",
+    "name": "Eléphant",
+    "link": "https://blog.makila.fr/animaux-safari-afrique/elephant-dafrique/",
+    "scientificName": "Loxodonta",
+    "lieu": "dans les flaques d\"eau",
+    "family": "Eléphantidé",
+    "regime": "Herbivore"
+  },
+  {
+    "id": 3,
+    "img": "https://cdn.pixabay.com/photo/2017/07/09/18/11/hyena-2487722_960_720.jpg",
+    "name": "Hyène",
+    "link": "https://blog.makila.fr/animaux-safari-afrique/hyene-brune/",
+    "scientificName": "Crocuta crocuta",
+    "lieu": "Afrique subsaharienne",
+    "family": "Hyénidé",
+    "regime": "Carnivore"
+  },
+  {
+    "id": 4,
+    "img": "https://blog.makila.fr/animaux-safari-afrique/wp-content/gallery/suricate/suricate-photo-p-de-wilde.jpg",
+    "name": "Suricate",
+    "link": "https://blog.makila.fr/animaux-safari-afrique/suricate/",
+    "scientificName": "Suricatoume",
+    "lieu": "",
+    "family": "",
+    "regime": "Carnivore"
+  },
+  {
+    "id": 5,
+    "img": "https://img.ohmymag.com/article/girafe/girafe-sa-langue-fait-50cm_078e6bd8e6a5236796c227b3e4ee2ff57f86c6af.jpg",
+    "name": "Girafe",
+    "link": "https://blog.makila.fr/animaux-safari-afrique/girafe/",
+    "scientificName": "Girafus",
+    "lieu": "",
+    "family": "",
+    "regime": "Herbivore"
+  },
+  {
+    "id": 6,
+    "img": "https://static9.depositphotos.com/1594920/1087/i/600/depositphotos_10879124-stock-photo-young-chimpanzee-simia-troglodytes-6.jpg",
+    "name": "Chimpanze",
+    "link": "https://blog.makila.fr/animaux-safari-afrique/chimpanze/",
+    "scientificName": "Pan Troglodyte",
+    "lieu": "dans les arbres",
+    "family": "Hominidé",
+    "regime": "Omnivore"
+  }
+]
