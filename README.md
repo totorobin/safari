@@ -2,16 +2,16 @@
 
 ## 1ere Etape
 
-Première étape pour creer une page web :
+Première étape pour creer une page web :<br/>
 les balise ``<html>``, ``<head>`` et ``<body>``
 
 ## 2eme Etape
 
-On ajoute du contenu dans le body
-Une image d'entête, des boutons
+On ajoute du contenu dans le body<br/>
+Une image d'entête, des boutons<br/>
 avec de nouvelles balise ``<img />``, ``<button>``
 
 ## 3eme Etape
 
-On ajoute les cartes
+On ajoute les cartes<br/>
 ``<a>``, ``<h4>``, ``<p>``
