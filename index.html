@@ -19,44 +19,56 @@
     </header>
 
     <div class="content">
-        <div class="carte">
-            <img src="https://i.pinimg.com/originals/29/f0/99/29f099ac762ef2dfeab5dd7facb511f0.jpg" alt="Lion">
+
+        <div class="cartes">
+            <div class="carte carnivore">
+                <img src="https://i.pinimg.com/originals/29/f0/99/29f099ac762ef2dfeab5dd7facb511f0.jpg" alt="Lion" onclick="openModal('LION')">
             <h4>Lion</h4>
             <p><a href="https://blog.makila.fr/animaux-safari-afrique/lion/" target="_blank"> En savoir + </a></p>
         </div>
 
-        <div class="carte">
+            <div class="carte herbivore">
             <img src="https://i.pinimg.com/originals/32/bc/8c/32bc8ca0a4cd43112e4fa16f4c19edb1.jpg" alt="elephant">
             <h4>Eléphant</h4>
             <p><a href="https://blog.makila.fr/animaux-safari-afrique/elephant-dafrique/" target="_blank"> En savoir +</a></p>
         </div>
 
-        <div class="carte">
-            <img src="https://cdn.pixabay.com/photo/2017/07/09/18/11/hyena-2487722_960_720.jpg"
-                 alt="Hyene">
+            <div class="carte carnivore">
+                <img src="https://cdn.pixabay.com/photo/2017/07/09/18/11/hyena-2487722_960_720.jpg"
+                    alt="Hyene"onclick="openModal('HYENE')">
             <h4>Hyène</h4>
             <p><a href="https://blog.makila.fr/animaux-safari-afrique/hyene-brune/" target="_blank"> En savoir + </a></p>
         </div>
 
-        <div class="carte">
+            <div class="carte carnivore">
             <img src="https://blog.makila.fr/animaux-safari-afrique/wp-content/gallery/suricate/suricate-photo-p-de-wilde.jpg"
-                 alt="Suricate">
+                    alt="Suricate" onclick="openModal('SURICATE')">
             <h4>Suricate</h4>
             <p><a href="https://blog.makila.fr/animaux-safari-afrique/suricate/" target="_blank"> En savoir + </a></p>
         </div>
 
-        <div class="carte">
+            <div class="carte herbivore">
             <img src="https://img.ohmymag.com/article/girafe/girafe-sa-langue-fait-50cm_078e6bd8e6a5236796c227b3e4ee2ff57f86c6af.jpg"
-                 alt="Girafe">
+                    alt="Girafe" onclick="openModal('GIRAFE')">
             <h4>Girafe</h4>
             <p><a href="https://blog.makila.fr/animaux-safari-afrique/girafe/" target="_blank"> En savoir + </a></p>
         </div>
 
-        <div class="carte">
+            <div class="carte omnivore">
             <img src="https://static9.depositphotos.com/1594920/1087/i/600/depositphotos_10879124-stock-photo-young-chimpanzee-simia-troglodytes-6.jpg"
-                 alt="chimpanze">
+                    alt="chimpanze" onclick="openModal('CHIMPANZE')">
             <h4>Chimpanze</h4>
             <p><a href="https://blog.makila.fr/animaux-safari-afrique/chimpanze/" target="_blank"> En savoir + </a></p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="modal">
+        <div class="modal-content">
+            <img src='close.png' class="close-button" onclick="closeModal()">
+            <div id="content-modal">
+            </div>
         </div>
 
     </div>

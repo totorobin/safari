@@ -58,3 +58,86 @@ for (var i = 0; i < btns.length; i++) {
 
 
 filtrer("");
+
+
+
+
+
+
+
+
+/*************
+ * MODAL
+ *
+ *************/
+
+function openModal(animal) {
+	console.log(animal);
+	createModal(animal);
+	var modal = document.getElementById("modal");
+	modal.style.display = "block";
+
+}
+
+function closeModal() {
+	var modal = document.getElementById("modal");
+	modal.style.display = "none";
+}
+
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+	if (event.target == modal) {
+		modal.style.display = "none";
+	}
+}
+
+function createModal(nomAnimal) {
+	animal = getDetails(nomAnimal);
+	var element = document.getElementById("content-modal");
+	element.innerHTML = "<h2>" + animal.nom + "</h2>" +
+		"<ul>" +
+		"<li>Nom scientifique : " + animal.nomScientifique + "</li>" +
+		"<li>Lieu de vie : " + animal.lieu + "</li>" +
+		"<li>Famille : " + animal.famille + "</li>" +
+		"<li>Régime alimentaire : " + animal.regime + "</li>" +
+		"</ul>";
+}
+
+// Recherche des details de l animal en fonction de son nom
+function getDetails(nomAnimal) {
+	console.log('RECHERCHE : ' + nomAnimal);
+	for (let i = 0; i < animaux.length; i++) {
+		console.log(animaux[i]);
+		if (nomAnimal === animaux[i].nom) {
+			console.log("Trouvé !!!!");
+			return animaux[i];
+		}
+	}
+}
+
+
+
+var animaux = [
+	{
+		nom: 'LION', nomScientifique: 'Panthera leo', lieu: 'Savane africaine', famille: 'Félidé', regime: 'Carnivore', image: ''
+	},
+	{
+		nom: 'ELEPHANT', nomScientifique: 'Loxodonta', lieu: 'dans les flaques d\'eau', famille: 'Eléphantidé', regime: 'Herbivore', image: ''
+	},
+	{
+		nom: 'HYENE', nomScientifique: 'Crocuta crocuta', lieu: 'Afrique subsaharienne', famille: 'Hyénidé', regime: 'Carnivore', image: ''
+	},
+	{
+		nom: 'CHIMPANZE', nomScientifique: 'Pan Troglodyte', lieu: 'dans les arbres', famille: 'Hominidé', regime: 'Omnivore', image: ''
+	},
+	{
+		nom: 'GIRAFE', nomScientifique: 'Girafus', lieu: '', famille: '', regime: '', image: ''
+	},
+	{
+		nom: 'SURICATE', nomScientifique: 'Suricatoume', lieu: '', famille: '', regime: '', image: ''
+	},
+
+]
+
+
