@@ -9,9 +9,9 @@ les balise ``<html>``, ``<head>`` et ``<body>``
 
 On ajoute du contenu dans le body<br/>
 Une image d'entête, des boutons<br/>
-avec de nouvelles balise ``<img />``, ``<button>``
+avec de nouvelles balises ``<img />``, ``<button>``
 
 ## 3eme Etape
 
 On ajoute les cartes<br/>
-``<a>``, ``<h4>``, ``<p>``
+et de nouvelles balises ``<a>``, ``<h4>``, ``<p>``
