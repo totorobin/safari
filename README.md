@@ -1,6 +1,6 @@
 # safari
 
-This template should help get you started developing with Vue 3 in Vite.
+Ceci est un exemple de page web développé en Vue3
 
 ## Recommended IDE Setup
 
