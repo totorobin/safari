@@ -43,12 +43,6 @@ header img {
   margin: auto;
 }
 
-/* Cartes */
-.cartes {
-  display: grid;
-  grid-template-columns: repeat(3, [col-start] 1fr);
-  grid-gap: 20px;
-}
 
 .carte {
   background-color: white;
@@ -152,3 +146,28 @@ footer {
 .close-button:hover {
 transform: scale(1.2);
 }
+
+
+
+/* MEDIA QUERIES */
+/*MOBILE FIRST*/
+.cartes {
+  display: grid;
+  grid-template-columns: repeat(1, [col-start] 1fr);
+  grid-gap: 20px;
+}
+
+@media only screen and (min-width:414px) {
+  /* tablettes */
+  .cartes {
+    grid-template-columns: repeat(2, [col-start] 1fr);
+  }
+}
+
+@media only screen and (min-width:768px) {
+  /* ordi grand écran*/
+  .cartes {
+    grid-template-columns: repeat(3, [col-start] 1fr);
+  }
+}
+
