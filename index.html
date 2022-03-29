@@ -11,10 +11,10 @@
     <header>
         <div id="menu">
             <img src="http://safaridesmetiers.tech/wp-content/uploads/2020/04/safari-des-metiers-logo-2022.png">
-            <button> Tous</button>
-            <button> Carnivore</button>
-            <button> Herbivores</button>
-            <button> Omnivores</button>
+            <button class="btn active" onclick="filtrer('')"> Tous</button>
+            <button class="btn" onclick="filtrer('carnivore')"> Carnivore</button>
+            <button class="btn" onclick="filtrer('herbivore')"> Herbivores</button>
+            <button class="btn" onclick="filtrer('omnivore')"> Omnivores</button>
         </div>
     </header>
 
@@ -63,6 +63,9 @@
 
 
     <footer></footer>
+
+
+    <script src='javascript.js'> </script>
 </body>
 
 </html>

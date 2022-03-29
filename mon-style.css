@@ -81,3 +81,19 @@ footer {
   background-color: beige;
   height:200px;
 }
+
+
+
+
+/* AJOUT JAVA SCRIPT */
+
+/* Par defaut , une carte est non affichee*/
+.carte {
+  display: none;
+}
+
+/* Classe a ajouter aux elements filtrés */
+.show {
+  display: block;
+}
+
